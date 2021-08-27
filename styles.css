@@ -1,0 +1,59 @@
+/* Containers */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0px 20px #f7f3f1;
+    color: #fff
+}
+
+.page-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 8px;
+}
+div.top * {
+margin: 5px;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+.weather-box, .crypto-box{
+    align-self: center;
+    text-align: center;
+}
+
+/* Typography */
+p {
+    background-color: #f7f3f173;
+    align-self: flex-start;
+}
+
+h1 {
+    text-align: center;
+}
+
+.current-price {
+    text-align: right;
+    padding: 3px;
+}
+
+.weather-description {
+    text-transform: capitalize;
+}
+
+/* Image */
+.doge-icon {
+    width: 33px;
+}
